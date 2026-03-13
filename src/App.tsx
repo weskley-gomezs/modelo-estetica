@@ -51,13 +51,8 @@ const Navbar = () => {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center"
         >
-          <a href="#home" className="block outline-none">
-            <img 
-              src="https://i.imgur.com/Quvgqwv.png" 
-              alt="Florida Estética Logo" 
-              className={`transition-all duration-500 object-contain ${isScrolled ? 'h-8 sm:h-10' : 'h-12 sm:h-14 lg:h-16'}`}
-              referrerPolicy="no-referrer"
-            />
+          <a href="#home" className="text-rose font-serif text-xl sm:text-2xl font-bold tracking-tight outline-none">
+            (Sua logo aqui)
           </a>
         </motion.div>
 
@@ -77,7 +72,7 @@ const Navbar = () => {
             </motion.a>
           ))}
           <motion.a 
-            href="https://wa.me/5571988619146" 
+            href="https://wa.me/5599999999999" 
             target="_blank" 
             rel="noopener noreferrer"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -94,7 +89,7 @@ const Navbar = () => {
         <div className="flex items-center gap-3 lg:hidden">
           <motion.a 
             whileTap={{ scale: 0.9 }}
-            href="https://wa.me/5571988619146" 
+            href="https://wa.me/5599999999999" 
             className="bg-rose text-white p-2.5 rounded-full shadow-lg"
             aria-label="Agendar"
           >
@@ -151,7 +146,7 @@ const Navbar = () => {
               className="fixed top-0 right-0 h-full w-[85%] max-w-sm bg-white shadow-[-20px_0_60px_rgba(0,0,0,0.1)] z-[58] lg:hidden flex flex-col"
             >
               <div className="p-8 flex justify-between items-center border-b border-beige/50">
-                <img src="https://i.imgur.com/Quvgqwv.png" alt="Logo" className="h-12 object-contain" referrerPolicy="no-referrer" />
+                <span className="text-rose font-serif text-2xl font-bold">(Sua logo aqui)</span>
               </div>
               
               <div className="flex-1 overflow-y-auto px-8 py-12 flex flex-col gap-8">
@@ -174,14 +169,14 @@ const Navbar = () => {
               <div className="p-8 bg-beige/20 border-t border-beige/50">
                 <div className="mb-8">
                   <p className="text-[10px] uppercase tracking-[0.2em] text-ink/40 font-bold mb-4">Fale Conosco</p>
-                  <p className="text-ink font-medium">(71) 98861-9146</p>
-                  <p className="text-ink/60 text-sm">Salvador - Bahia</p>
+                  <p className="text-ink font-medium">(99) 9999-9999</p>
+                  <p className="text-ink/60 text-sm">Sua Cidade - Seu Estado</p>
                 </div>
                 
                 <motion.a 
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  href="https://wa.me/5571988619146" 
+                  href="https://wa.me/5599999999999" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-rose text-white text-center py-5 rounded-2xl font-extrabold block shadow-xl shadow-rose/20 text-lg"
@@ -205,7 +200,7 @@ const Navbar = () => {
 
 const WhatsAppButton = () => (
   <a 
-    href="https://wa.me/5571988619146" 
+    href="https://wa.me/5599999999999" 
     target="_blank" 
     rel="noopener noreferrer"
     className="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition-transform duration-300 flex items-center justify-center"
@@ -282,7 +277,7 @@ export default function App() {
                   transition={{ delay: 1, duration: 0.8 }}
                   className="absolute -bottom-2 left-0 h-1 bg-coral/30 rounded-full"
                 ></motion.span>
-              </span> em Salvador
+              </span> em Sua Cidade
             </h1>
             
             <p className="text-base sm:text-lg xl:text-xl text-ink/70 mb-10 leading-relaxed max-w-xl mx-auto lg:mx-0">
@@ -293,7 +288,7 @@ export default function App() {
               <motion.a 
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
-                href="https://wa.me/5571988619146" 
+                href="https://wa.me/5599999999999" 
                 className="btn-premium bg-rose text-white text-center flex items-center justify-center gap-2 py-5 px-10 text-base font-bold shadow-rose/20"
               >
                 Agendar avaliação <ChevronRight size={20} />
@@ -301,7 +296,7 @@ export default function App() {
               <motion.a 
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
-                href="https://wa.me/5571988619146" 
+                href="https://wa.me/5599999999999" 
                 className="btn-premium bg-white text-rose border border-rose/10 text-center flex items-center justify-center gap-2 py-5 px-10 text-base font-bold shadow-sm"
               >
                 Falar no WhatsApp <MessageCircle size={20} />
@@ -376,7 +371,7 @@ export default function App() {
               </SectionHeading>
               
               <p className="text-ink/70 mb-8 text-lg leading-relaxed">
-                A Florida Estética nasceu do desejo de oferecer tratamentos que unem ciência, tecnologia e um olhar artístico sobre a beleza. Localizada no coração de Salvador, no Boulevard Side Empresarial, somos referência em procedimentos que valorizam a naturalidade.
+                Nossa clínica nasceu do desejo de oferecer tratamentos que unem ciência, tecnologia e um olhar artístico sobre a beleza. Localizada no coração de Sua Cidade, somos referência em procedimentos que valorizam a naturalidade.
               </p>
               
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12">
@@ -422,7 +417,7 @@ export default function App() {
               <div className="rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-beige relative z-10">
                 <img 
                   src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=1000" 
-                  alt="Ambiente da clínica Florida Estética" 
+                  alt="Ambiente da clínica" 
                   className="w-full h-[400px] lg:h-[600px] object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -501,7 +496,7 @@ export default function App() {
                   </ul>
                   <motion.a 
                     whileHover={{ backgroundColor: "#E5989B", color: "#FFFFFF" }}
-                    href="https://wa.me/5571988619146" 
+                    href="https://wa.me/5599999999999" 
                     className="mt-auto w-full py-4 border border-rose/20 rounded-2xl text-rose text-sm font-bold flex items-center justify-center gap-2 transition-all"
                   >
                     Ver detalhes <ChevronRight size={16} />
@@ -524,7 +519,7 @@ export default function App() {
               viewport={{ once: true }}
               className="lg:col-span-1 lg:sticky lg:top-32"
             >
-              <SectionHeading subtitle="O Padrão Florida">
+              <SectionHeading subtitle="Sua Marca">
                 Diferenciais que <br /> nos tornam únicos
               </SectionHeading>
               <p className="text-ink/60 leading-relaxed mb-10 text-lg">
@@ -547,7 +542,7 @@ export default function App() {
                 { title: "Atendimento Humanizado", desc: "Cada paciente é único. Criamos planos de tratamento personalizados para suas necessidades reais." },
                 { title: "Equipamentos Modernos", desc: "Investimos constantemente nas tecnologias mais avançadas do mercado estético mundial." },
                 { title: "Profissionais Especializados", desc: "Nossa equipe passa por treinamentos constantes para oferecer o melhor em cada técnica." },
-                { title: "Estrutura Premium", desc: "Um ambiente sofisticado, limpo e acolhedor no Boulevard Side Empresarial, coração de Salvador." },
+                { title: "Estrutura Premium", desc: "Um ambiente sofisticado, limpo e acolhedor no coração de Sua Cidade." },
                 { title: "Resultados Naturais", desc: "Nossa filosofia é realçar sua beleza sem exageros, mantendo sua essência e harmonia facial." },
                 { title: "Segurança Total", desc: "Seguimos rigorosamente todos os protocolos de saúde e vigilância sanitária em cada atendimento." },
               ].map((card, i) => (
@@ -593,7 +588,7 @@ export default function App() {
             {[
               { name: "Mariana Silva", text: "Atendimento impecável! A Dra Gabriela é uma profissional incrível, muito atenciosa. Os resultados foram além do que eu esperava. Senti-me muito segura.", date: "Há 2 meses" },
               { name: "Carla Menezes", text: "A clínica é linda e super limpa. Fiz criolipólise e amei o resultado. O atendimento das meninas na recepção também é nota 10. Recomendo muito!", date: "Há 1 mês" },
-              { name: "Juliana Costa", text: "Melhor clínica de Salvador! Tecnologia de ponta e profissionais que realmente entendem do que estão fazendo. O ambiente é maravilhoso e relaxante.", date: "Há 3 semanas" },
+              { name: "Juliana Costa", text: "Melhor clínica de Sua Cidade! Tecnologia de ponta e profissionais que realmente entendem do que estão fazendo. O ambiente é maravilhoso e relaxante.", date: "Há 3 semanas" },
             ].map((dep, i) => (
               <motion.div 
                 key={i}
@@ -624,9 +619,9 @@ export default function App() {
             whileInView={{ opacity: 1 }}
             className="text-center mt-16"
           >
-            <p className="text-ink/50 text-sm mb-6">Baseado em 229 avaliações reais no Google Business</p>
-            <a href="https://www.google.com/search?q=Florida+Estetica+Salvador" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-rose font-bold hover:gap-4 transition-all group border-b-2 border-rose/20 pb-1">
-              Ver todas as avaliações no Google <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
+            <p className="text-ink/50 text-sm mb-6">Baseado em avaliações reais de nossas clientes</p>
+            <a href="#" className="inline-flex items-center gap-2 text-rose font-bold hover:gap-4 transition-all group border-b-2 border-rose/20 pb-1">
+              Ver todas as avaliações <ExternalLink size={16} className="group-hover:scale-110 transition-transform" />
             </a>
           </motion.div>
         </div>
@@ -651,9 +646,9 @@ export default function App() {
                   <div>
                     <h4 className="font-bold text-ink text-xl mb-2">Endereço</h4>
                     <p className="text-ink/60 leading-relaxed">
-                      Av. Tancredo Neves, 01 <br />
-                      Pituba — Salvador — BA <br />
-                      Boulevard Side Empresarial
+                      Rua Exemplo, 123 <br />
+                      Bairro — Sua Cidade — Estado <br />
+                      Edifício Comercial
                     </p>
                   </div>
                 </div>
@@ -664,7 +659,7 @@ export default function App() {
                   </div>
                   <div>
                     <h4 className="font-bold text-ink text-xl mb-2">Contato Direto</h4>
-                    <p className="text-ink/60 text-lg">(71) 98861-9146</p>
+                    <p className="text-ink/60 text-lg">(99) 9999-9999</p>
                     <p className="text-rose text-sm font-bold mt-1">Disponível para WhatsApp</p>
                   </div>
                 </div>
@@ -673,9 +668,7 @@ export default function App() {
               <motion.a 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="https://www.google.com/maps/dir/?api=1&destination=Boulevard+Side+Empresarial+Salvador" 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href="#" 
                 className="btn-premium bg-ink text-white inline-flex items-center gap-3 py-5 px-10 shadow-xl"
               >
                 Traçar rota no Google Maps <MapPin size={20} />
@@ -693,13 +686,13 @@ export default function App() {
                 <p className="font-serif text-2xl italic">Mapa Interativo</p>
               </div>
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.818721115161!2d-38.4549219!3d-12.983424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b11066666667%3A0x6666666666666666!2sBoulevard%20Side%20Empresarial!5e0!3m2!1spt-BR!2sbr!4v1621234567890!5m2!1spt-BR!2sbr" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.818721115161!2d-38.4549219!3d-12.983424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDAwJzAwLjAiUyAzOMKwMDAnMDAuMCJX!5e0!3m2!1spt-BR!2sbr!4v1621234567890!5m2!1spt-BR!2sbr" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
                 allowFullScreen 
                 loading="lazy"
-                title="Localização Florida Estética"
+                title="Localização da Clínica"
                 className="relative z-10 grayscale hover:grayscale-0 transition-all duration-1000"
               ></iframe>
             </motion.div>
@@ -737,7 +730,7 @@ export default function App() {
             <motion.a 
               whileHover={{ scale: 1.05, boxShadow: "0 25px 50px -12px rgba(0,0,0,0.25)" }}
               whileTap={{ scale: 0.95 }}
-              href="https://wa.me/5571988619146" 
+              href="https://wa.me/5599999999999" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-16 py-6 bg-white text-rose rounded-full font-extrabold text-xl shadow-2xl inline-flex items-center gap-4 transition-all"
@@ -757,15 +750,10 @@ export default function App() {
               whileInView={{ opacity: 1 }}
               className="flex items-center gap-2 mb-8"
             >
-              <img 
-                src="https://i.imgur.com/Quvgqwv.png" 
-                alt="Florida Estética Logo" 
-                className="h-16 brightness-0 invert" 
-                referrerPolicy="no-referrer"
-              />
+              <span className="text-rose font-serif text-2xl font-bold">(Sua logo aqui)</span>
             </motion.div>
             <p className="text-white/40 text-sm leading-relaxed mb-10 max-w-xs">
-              Sua clínica de estética premium em Salvador. Tecnologia e arte unidas para realçar sua beleza natural com total segurança e sofisticação.
+              Sua clínica de estética premium em Sua Cidade. Tecnologia e arte unidas para realçar sua beleza natural com total segurança e sofisticação.
             </p>
             <div className="flex gap-5">
               {[
@@ -820,13 +808,13 @@ export default function App() {
                 <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-rose">
                   <Phone size={16} />
                 </div>
-                <span>(71) 98861-9146</span>
+                <span>(99) 9999-9999</span>
               </li>
               <li className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-rose shrink-0">
                   <MapPin size={16} />
                 </div>
-                <span className="leading-relaxed">Av. Tancredo Neves, 01, <br /> Boulevard Side, Salvador - BA</span>
+                <span className="leading-relaxed">Rua Exemplo, 123, <br /> Bairro, Sua Cidade - Estado</span>
               </li>
               <li className="pt-4 border-t border-white/5">
                 <p className="text-[10px] uppercase tracking-widest text-white/20 mb-2">Horários</p>
@@ -838,8 +826,8 @@ export default function App() {
         </div>
         
         <div className="section-padding py-10 flex flex-col md:flex-row justify-between items-center gap-6 text-white/20 text-[10px] uppercase tracking-[0.2em]">
-          <p>© {new Date().getFullYear()} Florida Estética. Todos os direitos reservados.</p>
-          <p>Desenvolvido com excelência para Salvador.</p>
+          <p>© {new Date().getFullYear()} Sua Marca. Todos os direitos reservados.</p>
+          <p>Desenvolvido com excelência para Sua Cidade.</p>
         </div>
       </footer>
     </div>
