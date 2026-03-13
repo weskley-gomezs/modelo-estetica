@@ -1,0 +1,7 @@
+{
+  "name": "Florida Estética - Clínica Premium em Salvador",
+  "description": "Clínica de estética de alto padrão em Salvador, especializada em tratamentos faciais e corporais com tecnologia de ponta e atendimento humanizado.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
